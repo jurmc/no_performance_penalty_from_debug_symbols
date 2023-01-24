@@ -1,6 +1,6 @@
 Question is: "Do debug symbols has an impact on performance on compiled binary?"
 
-Here is some evidence that debug there is no such impact:
+Here is some evidence that there is no impact:
 
 ```
 ./perf_testO0
