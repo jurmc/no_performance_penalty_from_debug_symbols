@@ -1,4 +1,4 @@
-Question is: "Do debug symbols has impact on performance on compiled binary?"
+Question is: "Do debug symbols has an impact on performance on compiled binary?"
 
 Here is some evidence that debug there is no such impact:
 
