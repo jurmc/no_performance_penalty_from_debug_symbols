@@ -25,7 +25,7 @@ Debug symbols has an impact on the compiled binary size.
 Of course you face performance penalty if you run your binary under a debugger control.
 There are other reasons not to ship binaries with debug symbols (for example security),
 but when binary is loaded to the memory its debug symbols still reside only on the disk,
-and can serve debugger (or other tools) needs if requred.
+and can serve debugger (or other tools) needs if required.
 
 If you mix debug and optimization flags in your build your debugger might also
 become less useful since there will be some code in compiled binary that cannot
