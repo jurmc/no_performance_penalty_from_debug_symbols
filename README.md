@@ -2,7 +2,7 @@ Question is: "Do debug symbols has impact on performance on compiled binary?"
 
 Here is some evidence that debug there is no such impact:
 
-'''
+```
 ./perf_testO0
 test_optimization_fsplit_loops (flags: -O0): 9.905 seconds.
 test_optimization_fpeel_loops (flags: -O0): 10.537 seconds.
@@ -19,7 +19,7 @@ test_optimization_fpredictive_commoning (flags: -O0 -ggdb): 81.861 seconds.
 test_optimization_fsplit_loops (flags: -O3 -ggdb): 3.663 seconds.
 test_optimization_fpeel_loops (flags: -O3 -ggdb): 2.471 seconds.
 test_optimization_fpredictive_commoning (flags: -O3 -ggdb): 5.700 seconds.
-'''
+```
 
 Debug symbols has an impact on the compiled binary size.
 Of course you face performance penalty if you run your binary under a debugger control.
