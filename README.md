@@ -1,4 +1,4 @@
-Question is: "Do debug symbols has an impact on performance of compiled binary?"
+Question is: "Do debug symbols have an impact on performance of compiled binary?"
 
 Here is some evidence that there is no impact:
 
@@ -21,7 +21,7 @@ test_optimization_fpeel_loops (flags: -O3 -ggdb): 2.471 seconds.
 test_optimization_fpredictive_commoning (flags: -O3 -ggdb): 5.700 seconds.
 ```
 
-Debug symbols has an impact on the compiled binary size.
+Debug symbols have an impact on the compiled binary size.
 Of course you face performance penalty if you run your binary under a debugger control.
 There are other reasons not to ship binaries with debug symbols (for example security),
 but when binary is loaded to the memory its debug symbols still reside only on the disk,
